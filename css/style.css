@@ -1,0 +1,45 @@
+
+.debug{
+  border: 1px solid violet;
+}
+header{
+  height: 90px;
+  background-color: #273646;
+  color: #fff;
+  line-height: 90px;
+}
+#logo{
+  
+}
+#navbar{
+
+}
+.fa-solid{
+  font-size: 1.5em;
+  padding: 5px 10px;
+  color: #7d7d7d;
+}
+main{
+  background-color: #19b491;
+}
+#jumbotron{
+  color: #fff;
+}
+#portfolio{
+  color: #273646;
+}
+#about{
+  color: #fff;
+}
+#contact{
+  color: #273646;
+}
+footer{
+  color: #fff;
+}
+#footer-up{
+  background-color: #334a62;
+}
+#footer-down{
+  background-color: #273646;
+}
