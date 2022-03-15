@@ -69,3 +69,12 @@ footer{
   line-height: 100px;
   vertical-align: middle;
 }
+
+/* Media query */
+/* Tablet ≥768px */
+@media screen and (min-width: 768px){
+  .my-md-text{
+    font-size: 12; 
+  }
+
+}
