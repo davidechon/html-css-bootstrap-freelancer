@@ -25,6 +25,15 @@ main{
 #jumbotron{
   color: #fff;
 }
+.line{
+  width: 40px;
+  height: 5px;
+  background-color: blue;
+  /* margin: 0 auto; */
+  /* display: block; */
+  /* margin-top: -20px; */
+}
+
 #portfolio{
   color: #273646;
 }
