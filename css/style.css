@@ -25,10 +25,17 @@ main{
 #jumbotron{
   color: #fff;
 }
-.line{
+.my-line{
   width: 40px;
   height: 5px;
-  background-color: blue;
+  background-color: #273646;
+  display: inline-block;
+}
+.my-line-white{
+  width: 40px;
+  height: 5px;
+  background-color: #fff;
+  display: inline-block;
 }
 
 #portfolio{
@@ -57,5 +64,8 @@ footer{
   color: #19b491;
 }
 #footer-down{
+  height: 100px;
   background-color: #273646;
+  line-height: 100px;
+  vertical-align: middle;
 }
