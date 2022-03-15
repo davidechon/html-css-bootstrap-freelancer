@@ -38,11 +38,14 @@ main{
 #about{
   color: #fff;
 }
-.download{
-  font-size: 10px;
-}
+
 #contact{
+  background-color: #fff;
   color: #273646;
+}
+#contact .button{
+  background-color: #19b491;
+  color: #fff;
 }
 footer{
   color: #fff;
