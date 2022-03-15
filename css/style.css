@@ -43,7 +43,7 @@ main{
   background-color: #fff;
   color: #273646;
 }
-#contact .button{
+#contact .my-button{
   background-color: #19b491;
   color: #fff;
 }
@@ -52,6 +52,9 @@ footer{
 }
 #footer-up{
   background-color: #334a62;
+}
+#footer-up .my-link{
+  color: #19b491;
 }
 #footer-down{
   background-color: #273646;
