@@ -39,58 +39,43 @@
 
    </header>
    <!-- /Header ----------------- DA SISTEMARE ----------------->
-  <!-- <div class="container-fluid">     -->
     <!-- Main -->
     <main>
-      <div id="jumbotron">
-        <div class="containter-fluid">
-          <div class="row justify-content-center">
-            <div class="col text-center">
-              <img src="img/avatar.svg" class="col-6 col-lg-4 my-4" alt="avatar">
-              <h1 class="text-center text-uppercase fw-bold">START BOOTSTRAP</h1>
-              <div class="row my-4 justify-content-center">
-                <div class="col-6 justify-content-center text-center">
-                  <div class="my-line-white col align-middle"></div>
-                  <i class="col align-middle text-white fa-solid fa-star"></i>
-                  <div class="my-line-white col align-middle"></div>
-                </div> <!--/col my-line -->
-              </div> <!-- /row line-star-line -->
-            <h2 class="fs-5 text-center text-uppercase my-4">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h2>
-            </div> <!-- /col jumbotron -->
-          </div> <!-- /row jumbotron -->
-        </div> <!-- /container-fluid jumbotron -->
-      </div> <!-- /Jumbotron ----------------->
+      <section id="jumbotron" class="cs-bg-green text-uppercase">
+        <img src="img/avatar.svg" class="" alt="avatar">
+        <h1>START BOOTSTRAP</h1>
+        <div class="cs-star-wrapper">
+          <i class="fas fa-star"></i>
+        </div><!-- /line-star-line -->
+        <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+      </section> <!-- /Jumbotron ----------------->
+
+
       <!-- Portfolio -->
-      <div id="portfolio">
-        <h1 class="text-center text-uppercase fw-bold mt-4">portfolio</h1>
-        <div class="row my-4 justify-content-center">
-          <div class="col-6 justify-content-center text-center">
-            <div class="my-line col align-middle"></div>
-            <i class="col align-middle fa-solid fa-star"></i>
-            <div class="my-line col align-middle"></div>
-          </div> <!--/col my-line -->
-        </div> <!-- /row line-star-line -->
-        <div class="row justify-content-center">
-          <div class="col text-center">
-            <img src="img/cabin.png" class="col-12 col-md-5 col-lg-3 my-4 rounded-3" alt="cabin">
-            <img src="img/cake.png" class="col-12 col-md-5 col-lg-3 my-4 rounded-3" alt="cake">
-            <img src="img/circus.png" class="col-12 col-md-5 col-lg-3 my-4 rounded-3" alt="circus">
-            <img src="img/game.png" class="col-12 col-md-5 col-lg-3 my-4 rounded-3" alt="game">
-            <img src="img/safe.png" class="col-12 col-md-5 col-lg-3 my-4 rounded-3" alt="safe">
-            <img src="img/submarine.png" class="col-12 col-md-5 col-lg-3 my-4 rounded-3" alt="submarine">
-          </div> <!-- /col portfolio -->
-        </div> <!-- /row portfolio -->
-      </div> <!-- /Portfolio ----------------->
+      <section id="portfolio" class="text-uppercase">
+        <div class="container">
+          <h1>portfolio</h1>
+          <div class="cs-star-wrapper cs-dark">
+            <i class="fas fa-star"></i>
+          </div><!-- /line-star-line -->
+          <div class="row gy-3">
+            <div class="col">
+              <img src="img/cabin.png" class="col-12 col-sm-6 col-md-4" alt="cabin">
+              <img src="img/cake.png" class="col-12 col-sm-6 col-md-4" alt="cake">
+              <img src="img/circus.png" class="col-12 col-sm-6 col-md-4" alt="circus">
+              <img src="img/game.png" class="col-12 col-sm-6 col-md-4" alt="game">
+              <img src="img/safe.png" class="col-12 col-sm-6 col-md-4" alt="safe">
+              <img src="img/submarine.png" class="col-12 col-sm-6 col-md-4" alt="submarine">
+            </div> <!-- /col portfolio -->
+          </div> <!-- /row portfolio -->
+        </div> <!-- /container portfolio -->
+      </section> <!-- /Portfolio ----------------->
        <!-- About -->
-      <div id="about" class="mt-4">
+      <section id="about" class="cs-bg-green">
         <h1 class="text-center text-uppercase fw-bold">ABOUT</h1>
-        <div class="row my-4 justify-content-center">
-          <div class="col-6 justify-content-center text-center">
-            <div class="my-line-white col align-middle"></div>
-            <i class="col align-middle text-white fa-solid fa-star"></i>
-            <div class="my-line-white col align-middle"></div>
-          </div> <!--/col my-line -->
-        </div> <!-- /row line-star-line -->
+        <div class="cs-star-wrapper">
+          <i class="fas fa-star"></i>
+        </div><!-- /line-star-line -->
         <div class="container my-4">
           <div class="row justify-content-center">
             <div class="col-12 col-md-4 fs-4 text-start">
@@ -104,18 +89,13 @@
         <div class="text-center my-4">
           <i class="fa-solid fa-download text-white border rounded fs-6"> Download</i>
         </div> <!-- /download -->
-      </div> <!-- /About ----------------->
+      </section> <!-- /About ----------------->
        <!-- Contact -->
-         <div id="contact" class="my-4">
+         <section id="contact" class="my-4 cs-bg-blue">
            <h1 class="text-center text-uppercase fw-bold mt-4">CONTACT ME</h1>
-           <div class="row my-4 justify-content-center">
-             <div class="col-6 justify-content-center text-center">
-               <div class="my-line col align-middle"></div>
-                <i class="col align-middle fa-solid fa-star"></i>
-               <div class="my-line col align-middle"></div>
-            </div>
-             <!--/col my-line -->
-          </div> <!-- /row line-star-line -->
+           <div class="cs-star-wrapper cs-dark">
+            <i class="fas fa-star"></i>
+          </div><!-- /line-star-line -->
         <!-- Form ---------------->
         <form class="container">
           <div class="mb-3">
@@ -134,7 +114,7 @@
           <button type="submit" class="btn my-button my-4 fs-5">Send</button>
         </form>
         <!-- /form ---------------->
-      </div> <!-- /contact ----------------->
+      </section> <!-- /contact ----------------->
     </main> <!-- /Main ---------------------------------->
     <!-- Footer -->
     <footer>footer 
@@ -163,7 +143,6 @@
         <p class="text-white text-center">Copyright &copy; Your Website 2019</p>
       </div> <!-- /Footer-Down ----------------->
     </footer> <!-- /Footer ---------------------------------->
-  <!-- </div> Container-fluid -->
   
 
   
