@@ -34,6 +34,17 @@ main, footer{
 section{
   padding: 60px 0;
 }
+h1{
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+p{
+  font-size: 20px;
+}
+h2{
+  text-transform: uppercase;
+}
 .cs-star-wrapper:before,
 .cs-star-wrapper:after{
   content: '';
@@ -89,7 +100,6 @@ section{
   color: #2c3e50;
   border-bottom: 1px solid #ced4da;
 }
-
 .cs-form-control{
   min-width: 70%;
   border: 0 solid white;
@@ -102,8 +112,6 @@ section{
   border-radius: 50%;
   margin: 10px 5px;
 }
-
-
 /* Header */
 header{
   height: 90px;
@@ -111,34 +119,21 @@ header{
 #home-header{
   color: #fff;
 }
-
+.cs-navbar{
+  top: 20%;
+  margin: 0 auto;
+}
 /* Main */
-
 #jumbotron img{
   max-width: 250px;
 }
-h1{
-  font-size: 40px;
-  font-weight: bold;
-  padding-top: 10px;
-}
-p{
-  font-size: 20px;
-}
-h2{
-  text-transform: uppercase;
-}
-
 #portfolio .cs-img-wrapper img{
 border-radius: 10px;
 }
-
-
 #contact .my-button{
   background-color: #19b491;
   color: #fff;
 }
-
 #footer-up{
   background-color: #334a62;
 }
@@ -150,11 +145,3 @@ border-radius: 10px;
   line-height: 100px;
 }
 
-/* Media query */
-/* Tablet ≥768px */
-@media screen and (min-width: 768px){
-  p{
-    font-size: 12; 
-  }
-
-}
