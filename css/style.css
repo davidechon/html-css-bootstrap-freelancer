@@ -9,6 +9,13 @@
 .cs-bg-green{
   background-color: #1ABC9C;
 }
+.cs-wrapper{
+  width: 60%;
+  margin: 0 auto;
+}
+.cs-button{
+margin: 20px auto 0;
+}
 main, footer{
   color: #fff;
   text-align: center;
@@ -42,6 +49,8 @@ section{
 }
 .cs-img-wrapper{
   position: relative;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .cs-img-wrapper:hover .cs-layover{
   background-color: rgba(26,188,156,0.7);
@@ -65,9 +74,6 @@ section{
   color: #fff;
 }
 
-.cs-img-wrapper:hover .cs-layover i.fa-plus:hover{
- 
-}
 
 /* Header */
 header{
@@ -90,6 +96,9 @@ h1{
 p{
   font-size: 20px;
 }
+h2{
+  text-transform: uppercase;
+}
 
 #portfolio .cs-img-wrapper img{
 border-radius: 10px;
@@ -108,16 +117,14 @@ border-radius: 10px;
   color: #19b491;
 }
 #footer-down{
-  height: 100px;
-  background-color: #273646;
+  padding: 20px auto;
   line-height: 100px;
-  vertical-align: middle;
 }
 
 /* Media query */
 /* Tablet ≥768px */
 @media screen and (min-width: 768px){
-  .my-md-text{
+  p{
     font-size: 12; 
   }
 
