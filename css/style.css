@@ -2,18 +2,27 @@
 .debug{
   border: 1px solid violet;
 }
+/* General */
+
+.cs-bg-blue{
+  background-color: #2c3e50;
+}
+
+
+
+
+/* Header */
 header{
   height: 90px;
-  background-color: #273646;
-  color: #fff;
-  line-height: 90px;
 }
-#logo{
+#home-header{
+  color: #fff;
+}
+.navbar{
   
 }
-#navbar{
 
-}
+
 .fa-solid{
   font-size: 1.5em;
   padding: 5px 10px;

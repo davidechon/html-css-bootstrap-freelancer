@@ -13,22 +13,33 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container-fluid">
-    <!-- Header -->
-    <header>
-      <div class="row justify-content-center align-middle">
-        <!-- logo -->
-       <div class="col-5">
-        <div id="logo" class="text-start text-uppercase fw-bold">START BOOTSTRAP</div>
-       </div>
-        <!-- /logo -->
-        <div class="col-5">
-          <!-- navbar -->
-          <div id="navbar" class="text-end"><i class="fa-solid fa-bars border rounded-2"></i></div>
-          <!-- /navbar -->
+   <!-- Header -->
+   <header id="home-header" class="cs-bg-blue">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container text-uppercase  debug">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-      </div> <!-- /row header -->
-    </header> <!-- /Header ---------------------------------->
+      </div>
+    </nav>
+
+   </header>
+   <!-- /Header ----------------- DA SISTEMARE ----------------->
+  <!-- <div class="container-fluid">     -->
     <!-- Main -->
     <main>
       <div id="jumbotron">
@@ -95,15 +106,16 @@
         </div> <!-- /download -->
       </div> <!-- /About ----------------->
        <!-- Contact -->
-      <div id="contact" class="my-4">
-        <h1 class="text-center text-uppercase fw-bold mt-4">CONTACT ME</h1>
-        <div class="row my-4 justify-content-center">
-          <div class="col-6 justify-content-center text-center">
-            <div class="my-line col align-middle"></div>
-            <i class="col align-middle fa-solid fa-star"></i>
-            <div class="my-line col align-middle"></div>
-          </div> <!--/col my-line -->
-        </div> <!-- /row line-star-line -->
+         <div id="contact" class="my-4">
+           <h1 class="text-center text-uppercase fw-bold mt-4">CONTACT ME</h1>
+           <div class="row my-4 justify-content-center">
+             <div class="col-6 justify-content-center text-center">
+               <div class="my-line col align-middle"></div>
+                <i class="col align-middle fa-solid fa-star"></i>
+               <div class="my-line col align-middle"></div>
+            </div>
+             <!--/col my-line -->
+          </div> <!-- /row line-star-line -->
         <!-- Form ---------------->
         <form class="container">
           <div class="mb-3">
@@ -123,11 +135,9 @@
         </form>
         <!-- /form ---------------->
       </div> <!-- /contact ----------------->
-
     </main> <!-- /Main ---------------------------------->
     <!-- Footer -->
     <footer>footer 
-
       <div id="footer-up">
         <div class="container">
           <div class="row text-center">
@@ -153,7 +163,7 @@
         <p class="text-white text-center">Copyright &copy; Your Website 2019</p>
       </div> <!-- /Footer-Down ----------------->
     </footer> <!-- /Footer ---------------------------------->
-  </div> <!-- Container-fluid -->
+  <!-- </div> Container-fluid -->
   
 
   
