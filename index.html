@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>html-css-bootstrap-freelancer</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>INDRACOM</title>
   <!-- Font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Bootstrap -->
@@ -14,10 +16,14 @@
 </head>
 <body>
    <!-- Header -->
-   <header id="home-header" class="cs-bg-blue">
+   <header id="home-header" class="cs-bg-blue fixed-top ">
     <nav class="navbar navbar-expand-md navbar-dark cs-navbar">
       <div class="container text-uppercase">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="#">
+          <img src="img/indracom__logo.png" alt="INDRACOM logo" width="64" height="64">
+          <!-- class="d-inline-block align-text-center">  -->
+          INDRACOM
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,6 +31,12 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#experience">Esperienze</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#training">Training</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -41,12 +53,12 @@
     <!-- Main -->
     <main>
       <section id="jumbotron" class="cs-bg-green text-uppercase">
-        <img src="img/avatar.svg" class="" alt="avatar">
-        <h1>START BOOTSTRAP</h1>
+        <img src="img/Dvd-2022.jpeg" class="img-thumbnail cs-profile shadow" alt="avatar">
+        <h1>Davide Chon</h1>
         <div class="cs-star-wrapper">
           <i class="fas fa-star"></i>
         </div><!-- /line-star-line -->
-        <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+        <p>Junior Full Stack Web Developer</p>
       </section> <!-- /Jumbotron ----------------->
       <!-- Portfolio -->
       <section id="portfolio" class="text-uppercase">
@@ -61,7 +73,9 @@
                 <div class="cs-layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="img/cabin.png" alt="cabin" class="img-fluid">
+                <img src="img/portfolio/proj-html-vuejs.png" alt="Progetto MidTerm" class="img-fluid">
+                <h5>Progetto MidTerm</h5>
+                <p>Questa è una prova di sito web realizzato con VueJS.</p>
               </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
@@ -69,7 +83,9 @@
                 <div class="cs-layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="img/cake.png" alt="cake" class="img-fluid">
+                <img src="img/portfolio/playstation.png" alt="Playstation" class="img-fluid">
+                <h5>Playstation</h5>
+                <p>Replica, a scopo didattico, del sito Playstation sperimentando Bootstrap.</p>
               </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
@@ -77,7 +93,9 @@
                 <div class="cs-layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="img/circus.png" alt="circus" class="img-fluid">
+                <img src="img/portfolio/discord-html-css.png" alt="Discord" class="img-fluid">
+                <h5>Discord</h5>
+                <p>Prima esercitazione strutturata con Html e CS</p>
               </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
@@ -85,7 +103,9 @@
                 <div class="cs-layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="img/game.png" alt="game" class="img-fluid">
+                <img src="img/portfolio/boolzapp-js.png" alt="Whatsapp" class="img-fluid">
+                <h5>Whatsapp desktop</h5>
+                <p>Replica, a scopo didattico, della versione desktop di Whatsapp utilizzando Vue.</p>
               </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
@@ -93,20 +113,109 @@
                 <div class="cs-layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="img/safe.png" alt="safe" class="img-fluid">
+                <img src="img/portfolio/toboolist.png" alt="Vue-todolist" class="img-fluid">
+                <h5>Vue-todolist</h5>
+                <p>Primi esperimenti in VueJS</p>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
+            <!-- <div class="col-12 col-sm-6 col-md-4">
               <div class="cs-img-wrapper">
                 <div class="cs-layover">
                   <i class="fas fa-plus"></i>
                 </div>
                 <img src="img/submarine.png" alt="submarine" class="img-fluid">
               </div>
-            </div>
+            </div> -->
           </div> <!-- /row portfolio -->
         </div> <!-- /container portfolio -->
       </section> <!-- /Portfolio ----------------->
+
+       <!-- Experience -->
+       <section id="experience" class="cs-bg-green">
+        <div class="container">
+          <h2>Esperienze</h2>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="cs-card">
+                <h5 class="cs-card-title fs-3">Full Stack Web Developer Trainee</h5>
+                <div class="card-body">
+                  <p class="card-text text-start fst-italic"><small class="text-muted"></small>#BooleanCareer - 02/2022 - 07/2022</small></p>
+                  <p class="card-text lh-base">Ho realizzato una complessa <strong>applicazione web</strong> ispirata a
+                    Deliveroo,
+                    formata da <strong>Backend</strong> (Autenticazione a più ruoli, integrazione Payment Provider e
+                    Geolocation API) e interfaccia <strong>Frontend responsive</strong> (VueJS + SASS + Bootstrap).
+                    Inoltre, durante i sei mesi di corso in Boolean, ho realizzato anche altri progetti ispirati a
+                    Whatsapp web, Spotify, Netflix, NexGen, Playstation, DC Comics e molti altri...
+                    <strong>Le tecnologie che ho utilizzato</strong> sono: HTML5, CSS3, SASS, Bootstrap, JavaScript, Vue
+                    JS, JQuery, PHP, MySQL e Laravel.</p>
+                  <p class="card-text"><small class="text-muted">Competenze: HTML5 · CSS3 · SASS · Bootstrap · AJAX ·
+                      jQuery · PHP · PhpMyAdmin · SQL · MySQL · Node.js · JavaScript · Vue.JS · Laravel · GitHub ·
+                      Sviluppo Web · Applicazioni Web · Programmazione · Sviluppo front-end · Web Design · Public
+                      speaking
+                      · Sviluppo di software · Sviluppo Web back-end · Web design responsivo · Lavoro di squadra · Mac
+                      user · Marketing · Zoom</small></p>
+                </div>
+              </div>
+            </div> <!-- /#BooleanCareer - Full Stack Web Developer Trainee -->
+
+            <div class="col">
+              <div class="cs-card">
+                <div class="card-body">
+                  <h5 class="card-title">Web Designer - Gestione Centro Olistico</h5>
+                  <p class="card-text"><small class="text-muted">#IstitutoMaitri - 04/1990 - 12/2021</small></p>
+                  <p class="card-text">Ho curato e realizzato tutta la parte <strong>grafica cartacea e
+                      digitale</strong>
+                    attraverso depliant, company profile, materiale didattico, pubblicazione su KDP Amazon e realizzato
+                    siti web.
+                    Ho gestito per diversi anni il <strong>Centro Olistico</strong> sia dal <strong>lato
+                      amministrativo</strong>, gestione magazzino, fatturazione, commercialista sia dal <strong>lato
+                      formativo</strong>, organizzazione dei corsi, gestione dei tirocini e formazione degli studenti
+                    (teorico/pratico) <strong>fino alla tenuta</strong> di gruppi.
+                    Ho curato personalmente la presenza fieristica ed organizzato diversi eventi e manifestazioni a
+                    tema.
+                  </p>
+                  <p class="card-text"><small class="text-muted">Competenze: Sviluppo Web · Sviluppo front-end · Web
+                      Design · Public speaking · Lavoro di squadra · Mac user · Grafica · Marketing · Leadership ·
+                      Training · Assistenza clienti · Insegnamento · Formazione per adulti · Project Management · Time
+                      management · Zoom · KDP Amazon</small></p>
+                </div>
+              </div>
+            </div> <!-- /#IstitutoMaitri - Web Designer - Gestione Centro Olistico -->
+
+            <div class="col">
+              <div class="cs-card">
+                <div class="card-body">
+                  <h5 class="card-title">Import/Export Expert</h5>
+                  <p class="card-text"><small class="text-muted">#Chonsped sas - ChonTenShip srl - 12/2006 -
+                      07/2014</small></p>
+                  <p class="card-text">Ufficio import/export.
+                    Relazione fornitori/clienti, noleggio ctns e navi, relazione con dogana e agenzie. <br>
+                    <strong>Digitalizzazione</strong> dell'intero processo produttivo</p>
+                  <p class="card-text"><small class="text-muted">Competenze: Mac user · Assistenza clienti · Microsoft
+                      Excel · Microsoft Word</small></p>
+                </div>
+              </div>
+            </div> <!-- /#Chonsped-ChonTenShip - Import/Export Expert -->
+
+            <div class="col">
+              <div class="cs-card">
+                <div class="card-body">
+                  <h5 class="card-title">Coordinatore della formazione</h5>
+                  <p class="card-text"><small class="text-muted">#Osfin - 12/2005 - 09/2006</small></p>
+                  <p class="card-text">Ideazione e progettazione percorsi formativi, formazione gruppo classe,
+                    formazione
+                    del corpo docenti, relazioni con la PA, creazione documentale, organizzazione del calendario delle
+                    lezioni, organizzazione del tirocinio degli allievi, preparazione dell'esame finale, relazione
+                    finale
+                  </p>
+                  <p class="card-text"><small class="text-muted">Competenze: Public speaking · Marketing · Leadership ·
+                      Assistenza clienti</small></p>
+                </div>
+              </div>
+            </div> <!-- /#Osfin - Coordinatore della formazione -->
+          </div> <!-- /card group -->
+        </div> <!-- /container Experience  -->
+      </section> <!-- /Experience ----------------->
        <!-- About -->
       <section id="about" class="cs-bg-green">
         <div class="cs-wrapper">
@@ -116,18 +225,23 @@
               <i class="fas fa-star"></i>
             </div> <!-- /line-star-line -->
             <div class="row gy-3 text-start">
-              <div class="col-12 col-sm-6">
-                <p>Freelancer is a free bootstrap theme created by Star Boootstrap&#46; The download includes the complete source files including HTML&comma; CSS and JavaScript as well as optional LESS stylesheets for easy customization&#46;</p> <!-- /text -->
+              <div class="col-12">
+                <p>Da sempre incuriosito dal mondo della <strong>programmazione</strong> e della
+                  tecnologia, oggi <strong>Full Stack Web Developer</strong>, con una formazione e relative
+                  competenze in ambito analogico. Sempre stimolato da nuove esperienze, <strong>mi piace molto il
+                    lavoro di squadra</strong> quando questo arrichisce le mie conoscenze. Sono convinto infatti che
+                  un buon progetto, <strong>al servizio del cliente</strong>, derivi dalla collaborazione di più
+                  professionisti.</p> <!-- /text -->
               </div> <!-- /col-12 -->
-              <div class="col-12 col-sm-6">
-                <p>Whether you&apos;re a student looking to shoecase you work, a professional looking to attract clients&comma; or a graphic artist looking to share your projects, this template is the perfect starting point&excl;</p> <!-- /text -->
-              </div> <!-- /col-12 -->
+              <!-- <div class="col-12 col-sm-6"> -->
+                <!-- <p>Whether you&apos;re a student looking to shoecase you work, a professional looking to attract clients&comma; or a graphic artist looking to share your projects, this template is the perfect starting point&excl;</p> /text -->
+              <!-- </div> /col-12 -->
             </div> <!-- /row -->
           </div> <!-- /container-fluid -->
         </div> <!-- /cs-wrapper -->
-        <button type="button" class="btn btn-outline-light cs-button">
+        <!-- <button type="button" class="btn btn-outline-light cs-button">
           <i class="fa-solid fa-download"> Download</i>
-        </button>
+        </button> -->
       </section> <!-- /About ----------------->
        <!-- Contact -->
       <section id="contact">
@@ -139,29 +253,19 @@
             </div> <!-- /line-star-line -->
             <div class="row gy-3 text-start">
               <div class="col-12">
-                <!-- Form ---------------->
-                <form>
-                  <div class="cs-input-group">
-                    <span>Name</span>
-                    <input type="text" class="cs-form-control">
-                  </div>
-                  <div class="cs-input-group">
-                    <span>Email Address</span>
-                    <input type="text" class="cs-form-control">
-                  </div>
-                  <div class="cs-input-group">
-                    <span>Phone Number</span>
-                    <input type="text" class="cs-form-control">
-                  </div>
-                  <div class="cs-input-group mb-3">
-                    <span>Message</span>
-                    <textarea class="form-control" rows="3"></textarea>
-                  </div>
-                  <div class="d-grid gap-2 d-md-block">
-                    <button type="button" class="btn btn-success cs-button-green">Send</button>
-                  </div>
-                </form>
-                <!-- /form ---------------->
+                <ul class="cs-contacts-list d-flex justify-content-between align-items-center">
+                  <li class="cs-shadow">
+                    <a href="mailto:davidechon@indracom.it" target="_blank"><img class="cs-socials" src="img/icons/envelope.png" alt="icon Mail"></a>
+                  </li>
+                  <li class="cs-shadow">
+                    <a href="https://www.linkedin.com/in/davide-chon/" target="_blank"><img class="cs-socials"
+                        src="img/icons/00-social-linkedin.png" alt="icon LinkedIn"></a>
+                  </li>
+                  <li class="cs-shadow">
+                    <a href="https://github.com/davidechon" target="_blank"><img class="cs-socials" src="img/icons/00-icon-github.png"
+                        alt="icon GitHub"></a>
+                  </li>
+                </ul>
               </div> <!-- /col-12 -->
             </div> <!-- /row -->
           </div> <!-- /container-fluid -->
@@ -176,7 +280,7 @@
             <div class="row gy-3 text-center">
               <div class="col-sm-12 col-md-4 col-lg-4 gy-3">
                 <h3 class="text-uppercase">LOCATION</h3>
-                <p class="text-capitalize">2215 John Daniel Drive Clark&comma; MO 54243</p> <!-- /address -->
+                <p class="text-capitalize">Full remote <br> - <br> Badia Tedalda(AR) - Italy</p> <!-- /address -->
               </div> <!-- /Location -->
               <div class="col-sm-12 col-md-4 col-lg-4 gy-3">
                 <h3 class="text-uppercase">AROUND THE WEB</h3>
@@ -193,7 +297,7 @@
           </div> <!-- /container -->
       </section> <!-- /Footer-Up ----------------->
       <div id="footer-down" class="cs-bg-blue">
-        <p>Copyright &copy; Your Website 2019</p>
+        <p>Copyright &copy; INDRACOM 2022</p>
       </div> <!-- /Footer-Down ----------------->
     </footer> <!-- /Footer ---------------------------------->
 </body>
