@@ -4,48 +4,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <title>INDRACOM</title>
+  <title>html-css-bootstrap-freelancer</title>
   <!-- Font awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  <!-- Google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
-
   <!-- Style -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    <!-- Header -->
-   <header id="home-header" class="cs-bg-blue fixed-top">
+   <header id="home-header" class="cs-bg-blue">
     <nav class="navbar navbar-expand-md navbar-dark cs-navbar">
       <div class="container text-uppercase">
-        <a class="navbar-brand" href="#">
-          <img src="img/indracom__logo.png" alt="INDRACOM logo" width="64" height="64">
-          <!-- class="d-inline-block align-text-center">  -->
-          INDRACOM
-        </a>
-        <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#experience">Esperienze</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#training">Formazione</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -59,58 +42,27 @@
     <!-- Main -->
     <main>
       <section id="jumbotron" class="cs-bg-green text-uppercase">
-        <img src="img/davidechon-circle.png" class="cs-profile" alt="avatar">
-        <h1>Davide Chon</h1>
-        <div class="cs-code-wrapper">
-          <i class="fa-solid fa-code"></i>
-        </div><!-- /line-code-line -->
-        <h2>Full Stack Web Developer</h2>
+        <img src="img/avatar.svg" class="" alt="avatar">
+        <h1>START BOOTSTRAP</h1>
+        <div class="cs-star-wrapper">
+          <i class="fas fa-star"></i>
+        </div><!-- /line-star-line -->
+        <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
       </section> <!-- /Jumbotron ----------------->
-
-      <!-- About -->
-      <section id="about" class="cs-bg-blue">
-        <div class="cs-wrapper">
-          <div class="container-fluid">
-            <h2>ABOUT</h2>
-            <div class="cs-code-wrapper">
-              <i class="fas fa-code"></i>
-            </div> <!-- /line-code-line -->
-            <div class="row gy-3 text-justify">
-              <div class="col-12">
-                <p>
-                  <i class="fa-solid fa-angle-left cs-text-green"></i>
-                  Da sempre incuriosito dal mondo della <strong>programmazione</strong> e della
-                  tecnologia, oggi <strong>Full Stack Web Developer</strong>, con una formazione e relative
-                  competenze in ambito analogico. Sempre stimolato da nuove esperienze, <strong>mi piace molto il
-                    lavoro di squadra</strong> quando questo arrichisce le mie conoscenze. Sono convinto infatti che
-                  un buon progetto, <strong>al servizio del cliente</strong>, derivi dalla collaborazione di più
-                  professionisti.
-                  <i class="fa-solid fa-angle-right cs-text-green"></i></p> <!-- /text -->
-              </div> <!-- /col-12 -->
-            </div> <!-- /row -->
-          </div> <!-- /container-fluid -->
-        </div> <!-- /cs-wrapper -->
-        <!-- <button type="button" class="btn btn-outline-light cs-button">
-          <i class="fa-solid fa-download"> Download</i>
-        </button> -->
-      </section> <!-- /About ----------------->
-      
       <!-- Portfolio -->
       <section id="portfolio" class="text-uppercase">
         <div class="container">
           <h2>portfolio</h2>
-          <div class="cs-code-wrapper cs-dark">
-            <i class="fas fa-code"></i>
-          </div><!-- /line-code-line -->
+          <div class="cs-star-wrapper cs-dark">
+            <i class="fas fa-star"></i>
+          </div><!-- /line-star-line -->
           <div class="row gy-3">
             <div class="col-12 col-sm-6 col-md-4">
               <div class="cs-img-wrapper">
                 <div class="cs-layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="img/portfolio/proj-html-vuejs.png" alt="Progetto MidTerm" class="img-fluid">
-                <h5>Progetto MidTerm</h5>
-                <p>Questa è una prova di sito web realizzato con VueJS.</p>
+                <img src="img/cabin.png" alt="cabin" class="img-fluid">
               </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
@@ -118,9 +70,7 @@
                 <div class="cs-layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="img/portfolio/playstation.png" alt="Playstation" class="img-fluid">
-                <h5>Playstation</h5>
-                <p>Replica, a scopo didattico, del sito Playstation sperimentando Bootstrap.</p>
+                <img src="img/cake.png" alt="cake" class="img-fluid">
               </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
@@ -128,9 +78,7 @@
                 <div class="cs-layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="img/portfolio/discord-html-css.png" alt="Discord" class="img-fluid">
-                <h5>Discord</h5>
-                <p>Prima esercitazione strutturata con Html e CS</p>
+                <img src="img/circus.png" alt="circus" class="img-fluid">
               </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
@@ -138,9 +86,7 @@
                 <div class="cs-layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="img/portfolio/boolzapp-js.png" alt="Whatsapp web" class="img-fluid">
-                <h5>Whatsapp desktop</h5>
-                <p>Replica, a scopo didattico, della versione desktop di Whatsapp utilizzando Vue.</p>
+                <img src="img/game.png" alt="game" class="img-fluid">
               </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
@@ -148,256 +94,75 @@
                 <div class="cs-layover">
                   <i class="fas fa-plus"></i>
                 </div>
-                <img src="img/portfolio/toboolist.png" alt="Vue-todolist" class="img-fluid">
-                <h5>Vue-todolist</h5>
-                <p>Primi esperimenti in VueJS</p>
+                <img src="img/safe.png" alt="safe" class="img-fluid">
               </div>
             </div>
-            <!-- <div class="col-12 col-sm-6 col-md-4">
+            <div class="col-12 col-sm-6 col-md-4">
               <div class="cs-img-wrapper">
                 <div class="cs-layover">
                   <i class="fas fa-plus"></i>
                 </div>
                 <img src="img/submarine.png" alt="submarine" class="img-fluid">
               </div>
-            </div> -->
+            </div>
           </div> <!-- /row portfolio -->
         </div> <!-- /container portfolio -->
       </section> <!-- /Portfolio ----------------->
-
-       <!-- Portfolio ----------------->
-
-
-        <!-- /Portfolio ----------------->
-
-       <!-- Experience -->
-       <section id="experience" class="cs-bg-green">
-        <div class="container">
-          <h2>Esperienze</h2>
-          <div class="cs-code-wrapper">
-            <i class="fa-solid fa-code"></i>
-          </div><!-- /line-code-line -->
-          <div class="row row-cols-1 row-cols-md-2 g-4">
-
-            <div class="col">
-              <div class="cs-card">
-                <h5 class="cs-card-title">Full Stack Web Developer Trainee</h5>
-                <h5 class="cs-card-subtitle"><small>#BooleanCareer - 02/2022 - 07/2022</small></h5>
-                <div class="cs-card-body">
-                  <p class="cs-card-text">Ho realizzato una complessa <strong>applicazione web</strong> ispirata a
-                    Deliveroo,
-                    formata da <strong>Backend</strong> (Autenticazione a più ruoli, integrazione Payment Provider e
-                    Geolocation API) e interfaccia <strong>Frontend responsive</strong> (VueJS + SASS + Bootstrap).
-                    Inoltre, durante i sei mesi di corso in Boolean, ho realizzato anche altri progetti ispirati a
-                    Whatsapp web, Spotify, Netflix, NexGen, Playstation, DC Comics e molti altri...
-                    <strong>Le tecnologie che ho utilizzato</strong> sono: HTML5, CSS3, SASS, Bootstrap, JavaScript, Vue
-                    JS, JQuery, PHP, MySQL e Laravel.</p>
-  <!-- QUI AGGIUNGI I LOGHI PARLANTI -->
-
-                  <p class="cs-card-text-muted"><small>Competenze:</small>
-                     <!-- HTML5 · CSS3 · SASS · Bootstrap · AJAX · jQuery · PHP · PhpMyAdmin · SQL · MySQL · Node.js · JavaScript · Vue.JS · Laravel · GitHub · Sviluppo Web · Applicazioni Web · Programmazione · Sviluppo front-end · Web Design · Public speaking · Sviluppo di software · Sviluppo Web back-end · Web design  responsivo · Lavoro di squadra · Mac user · Marketing · Zoom -->
-                  
-                  <div class="d-flex flex-wrap justify-content-center align-items-center text-center">
-                  
-                  <img class="cs-card-icons" src="img/skills/01-html-icon.png" alt="Html">
-                  <img class="cs-card-icons" src="img/skills/02-icon-css3.png" alt="Css">
-                  <img class="cs-card-icons" src="img/skills/03-icon-bootstrap.png" alt="Bootstrap">
-                  <img class="cs-card-icons" src="img/skills/04-icon-sass.png" alt="Sass">
-                  <img class="cs-card-icons" src="img/skills/05-icon-javascript.png" alt="JavaScript">
-                  <img class="cs-card-icons" src="img/skills/06-icon-vuejs.png" alt="VueJS">
-                  <img class="cs-card-icons" src="img/skills/07-icon-ajax.jpg" alt="Ajax">
-                  <img class="cs-card-icons" src="img/skills/08-icon-jquery.png" alt="JQuery">
-                  <img class="cs-card-icons" src="img/skills/09-icon-nodejs.png" alt="NodeJs">
-                  <img class="cs-card-icons" src="img/skills/10-icon-npm.png" alt="Npm">
-                  <img class="cs-card-icons" src="img/skills/11-icon-php-2.png" alt="Php">
-                  <img class="cs-card-icons" src="img/skills/12-icon-phpmyadmin.jpg" alt="PhpMyAdmin">
-                  <img class="cs-card-icons" src="img/skills/13-icon-mysql.png" alt="MySQL">
-                  <img class="cs-card-icons" src="img/skills/14-icon-laravel-2.png" alt="Laravel">
-
-                  <img class="cs-card-icons" src="img/icons/00-icon-github.png" alt="GitHub">
-                  <span><i class="cs-card-icons cs-card-icons-fa fa-solid fa-laptop-code"></i></span>
-                  <span><i class="cs-card-icons cs-card-icons-fa fa-solid fa-users-rays"></i></span>
-                  <span><i class="cs-card-icons cs-card-icons-fa fa-solid fa-people-group"></i></span>
-                  <span><i class="cs-card-icons cs-card-icons-fa fa-solid fa-people-carry-box"></i></span>
-                  <span></span>
-                  <span><i class="cs-card-icons cs-card-icons-fa fa-brands fa-apple"></i></span>
-                  
-                </div> <!-- /cs-card-icons -->
-              </p> <!-- /Competenze -->
-
-         <!-- QUI AGGIUNGI I LOGHI PARLANTI -->
-                  
-                </div>
-              </div>
-            </div> <!-- /#BooleanCareer - Full Stack Web Developer Trainee -->
-
-            <div class="col">
-              <div class="cs-card">
-                <h5 class="cs-card-title">Web Designer - Gestione Centro Olistico</h5>
-                <h5 class="cs-card-subtitle"><small>#IstitutoMaitri - 04/1990 - 12/2021</small></h5>
-                <div class="cs-card-body">
-                  <p class="cs-card-text">Ho curato e realizzato tutta la parte <strong>grafica cartacea e
-                    digitale</strong>
-                  attraverso depliant, company profile, materiale didattico, pubblicazione su KDP Amazon e realizzato
-                  siti web.
-                  Ho gestito per diversi anni il <strong>Centro Olistico</strong> sia dal <strong>lato
-                    amministrativo</strong>, gestione magazzino, fatturazione, commercialista sia dal <strong>lato
-                    formativo</strong>, organizzazione dei corsi, gestione dei tirocini e formazione degli studenti
-                  (teorico/pratico) <strong>fino alla tenuta</strong> di gruppi.
-                  Ho curato personalmente la presenza fieristica ed organizzato diversi eventi e manifestazioni a
-                  tema.</p>
-                  <p class="cs-card-text-muted"><small>Competenze: Sviluppo Web · Sviluppo front-end · Web Design · Public speaking · Lavoro di squadra · Mac user · Grafica · Marketing · Leadership · Training · Assistenza clienti · Insegnamento · Formazione per adulti · Project Management · Time management · Zoom · KDP Amazon</small></p>
-                </div>
-              </div>
-            </div> <!-- /#IstitutoMaitri - Web Designer - Gestione Centro Olistico -->
-
-            <div class="col">
-              <div class="cs-card">
-                <h5 class="cs-card-title">Import/Export Expert</h5>
-                <h5 class="cs-card-subtitle"><small>#Chonsped sas - ChonTenShip srl - 12/2006 - 07/2014</small></h5>
-                <div class="cs-card-body">
-                  <p class="cs-card-text">Ufficio import/export.
-                    Relazione fornitori/clienti, noleggio ctns e navi, relazione con dogana e agenzie. <br>
-                    <strong>Digitalizzazione</strong> dell'intero processo produttivo</p>
-                  <p class="cs-card-text-muted"><small>Competenze: Mac user · Assistenza clienti · Microsoft
-                      Excel · Microsoft Word</small></p>
-                </div>
-              </div>
-            </div> <!-- /#Chonsped-ChonTenShip - Import/Export Expert -->
-
-            <div class="col">
-              <div class="cs-card">
-                <h5 class="cs-card-title">Coordinatore della formazione</h5>
-                <h5 class="cs-card-subtitle"><small>#Osfin - 12/2005 - 09/2006</small></h5>
-                <div class="cs-card-body">
-                  <p class="cs-card-text">Ideazione e progettazione percorsi formativi, formazione gruppo classe,
-                    formazione
-                    del corpo docenti, relazioni con la PA, creazione documentale, organizzazione del calendario delle
-                    lezioni, organizzazione del tirocinio degli allievi, preparazione dell'esame finale, relazione
-                    finale
-                  </p>
-                  <p class="cs-card-text-muted"><small>Competenze: Public speaking · Marketing · Leadership · Assistenza clienti</small></p>
-                </div>
-              </div>
-            </div> <!-- /#Osfin - Coordinatore della formazione -->
-          </div> <!-- /card group -->
-        </div> <!-- /container Experience  -->
-      </section> <!-- /Experience ----------------->
-
-      <!------------------------------------------------->
-  
-      <!-- Training -->
-      <section id="training" class="cs-bg-white">
-        <div class="container">
-          <h2 class="cs-text-green">Formazione</h2>
-          <div class="cs-code-wrapper cs-dark">
-            <i class="fa-solid fa-code"></i>
-          </div><!-- /line-code-line -->
-          <div class="row row-cols-1 row-cols-md-2 g-4">
-
-            <div class="col">
-              <div class="cs-card">
-                <h5 class="cs-card-title">Full Stack Web Developer</h5>
-                <h5 class="cs-card-subtitle"><small>#Boolean - 02/2022 - 07/2022</small></h5>
-                <div class="cs-card-body">
-                  <p class="cs-card-text">Corso Full time di 700 ore volto all'acquisizione di competenze tecniche di
-                    frontend (HTML5, CSS, JS e relativi framework. Bootstrap, Vue.js) e all'acquisizione di competenze
-                    tecniche di backend (MySQL, PHP, Laravel).</p>
-                    <p class="cs-card-text-muted"><small>Master</small></p>
-                </div>
-              </div>
-            </div> <!-- /#BooleanCareer - Master Full Stack Web Developer -->
-
-            <div class="col">
-              <div class="cs-card">
-                <h5 class="cs-card-title">Gestione e Creazione d'Impresa</h5>
-                <h5 class="cs-card-subtitle"><small>#Osfin - 01/2001 - 06/2001</small></h5>
-                <div class="cs-card-body">
-                  <p class="cs-card-text">Gestione e Creazione d'Impresa</p>
-                  <p class="cs-card-text-muted"><small>Certificato di Competenze</small></p>
-                </div>
-              </div>
-            </div> <!-- /#Osfin - Gestione e creazione d'impresa -->
-
-            <div class="col">
-              <div class="cs-card">
-                <h5 class="cs-card-title">Ragioniere Amministrativo - Perito Commerciale</h5>
-                <h5 class="cs-card-subtitle"><small>#I.T.C. G. Salvemini, Casalecchio di Reno (Bologna) - 1998</small></h5>
-                <div class="cs-card-body">
-                  <p class="cs-card-text">Scuole Superiori</p>
-                  <p class="cs-card-text-muted"><small>Diploma</small></p>
-                </div>
-              </div>
-            </div> <!-- /#I.T.C. G. Salvemini - Diploma - Ragioniere Amministrativo - Perito Commerciale -->
-
-            <div class="col">
-              <div class="cs-card">
-                <h5 class="cs-card-title">Marketing Elettronico</h5>
-                <h5 class="cs-card-subtitle"><small>#Cefal, Rastignano (Bologna) - 1998</small></h5>
-                <div class="cs-card-body">
-                  <p class="cs-card-text">Prime applicazioni di marketing alla vendita online</p>
-                  <p class="cs-card-text-muted"><small>Certificato di Competenze</small></p>
-                </div>
-              </div>
-            </div> <!-- /#Cefal - Certificato di Competenze - Marketing Elettronico -->
-
-            <div class="col">
-              <div class="cs-card">
-                <h5 class="cs-card-title">Naturopatia</h5>
-                <h5 class="cs-card-subtitle"><small>#IstitutoMaitri, Bologna - 10/1995 - 07/1998</small></h5>
-                <div class="cs-card-body">
-                  <p class="cs-card-text">Percorso triennale - 1.500 ore</p>
-                  <p class="cs-card-text-muted"><small>Diploma</small></p>
-                </div>
-              </div>
-            </div> <!-- /#IstitutoMaitri - Diploma - Naturopatia -->
-
-          </div> <!-- /card group -->
-        </div> <!-- /container Experience  -->
-      </section> <!-- /Experience ----------------->
-      <!------------------------------------------------->
-
-
-
-       
+       <!-- About -->
+      <section id="about" class="cs-bg-green">
+        <div class="cs-wrapper">
+          <div class="container-fluid">
+            <h2>ABOUT</h2>
+            <div class="cs-star-wrapper">
+              <i class="fas fa-star"></i>
+            </div> <!-- /line-star-line -->
+            <div class="row gy-3 text-start">
+              <div class="col-12 col-sm-6">
+                <p>Freelancer is a free bootstrap theme created by Star Boootstrap&#46; The download includes the complete source files including HTML&comma; CSS and JavaScript as well as optional LESS stylesheets for easy customization&#46;</p> <!-- /text -->
+              </div> <!-- /col-12 -->
+              <div class="col-12 col-sm-6">
+                <p>Whether you&apos;re a student looking to shoecase you work, a professional looking to attract clients&comma; or a graphic artist looking to share your projects, this template is the perfect starting point&excl;</p> <!-- /text -->
+              </div> <!-- /col-12 -->
+            </div> <!-- /row -->
+          </div> <!-- /container-fluid -->
+        </div> <!-- /cs-wrapper -->
+        <button type="button" class="btn btn-outline-light cs-button">
+          <i class="fa-solid fa-download"> Download</i>
+        </button>
+      </section> <!-- /About ----------------->
        <!-- Contact -->
       <section id="contact">
         <div class="cs-wrapper">
           <div class="container-fluid">
             <h2>CONTACT ME</h2>
-            <div class="cs-code-wrapper cs-dark">
-              <i class="fas fa-code"></i>
-            </div> <!-- /line-code-line -->
-
-            <!---->
-            <div class="row row-cols-1 row-cols-sm-2 g-4">
-
-              <div class="col-12">
-                <div class="cs-card">
-                  <h5 class="cs-card-title">Contatti - Collaborazioni - Codice</h5>
-                  <!-- <h5 class="cs-card-subtitle"><small>Full Remote</small></h5> -->
-                  <div class="cs-card-body">
-                    <ul class="cs-contacts-list">
-                      <li class="cs-card-text">
-                        E-mail <a href="mailto:davidechon@indracom.it" target="_blank"><img class="cs-socials" src="img/icons/envelope.png" alt="icon Mail"></a>
-                      </li>
-                      <li class="cs-card-text">
-                        Linkedin <a href="https://www.linkedin.com/in/davide-chon/" target="_blank"><img class="cs-socials"
-                          src="img/icons/00-social-linkedin.png" alt="icon LinkedIn"></a>
-                      </li>
-                      <li class="cs-card-text">
-                        GitHub <a href="https://github.com/davidechon" target="_blank"><img class="cs-socials" src="img/icons/00-icon-github.png"
-                          alt="icon GitHub"></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div> <!-- /#Contact - col-12 -->
-            </div> <!-- /Contact - row -->
-            <!---->
+            <div class="cs-star-wrapper cs-dark">
+              <i class="fas fa-star"></i>
+            </div> <!-- /line-star-line -->
             <div class="row gy-3 text-start">
               <div class="col-12">
-                
+                <!-- Form ---------------->
+                <form>
+                  <div class="cs-input-group">
+                    <span>Name</span>
+                    <input type="text" class="cs-form-control">
+                  </div>
+                  <div class="cs-input-group">
+                    <span>Email Address</span>
+                    <input type="text" class="cs-form-control">
+                  </div>
+                  <div class="cs-input-group">
+                    <span>Phone Number</span>
+                    <input type="text" class="cs-form-control">
+                  </div>
+                  <div class="cs-input-group mb-3">
+                    <span>Message</span>
+                    <textarea class="form-control" rows="3"></textarea>
+                  </div>
+                  <div class="d-grid gap-2 d-md-block">
+                    <button type="button" class="btn btn-success cs-button-green">Send</button>
+                  </div>
+                </form>
+                <!-- /form ---------------->
               </div> <!-- /col-12 -->
             </div> <!-- /row -->
           </div> <!-- /container-fluid -->
@@ -407,11 +172,30 @@
     <!-- Footer -->
     <footer>
        <!-- Footer-up -->
-       <!-- /Footer-Up --------------- -->
+       <section id="footer-up" class="cs-bg-blue">
+          <div class="container"> 
+            <div class="row gy-3 text-center">
+              <div class="col-sm-12 col-md-4 col-lg-4 gy-3">
+                <h3 class="text-uppercase">LOCATION</h3>
+                <p class="text-capitalize">2215 John Daniel Drive Clark&comma; MO 54243</p> <!-- /address -->
+              </div> <!-- /Location -->
+              <div class="col-sm-12 col-md-4 col-lg-4 gy-3">
+                <h3 class="text-uppercase">AROUND THE WEB</h3>
+                <i class="fa-brands fa-facebook-f cs-socials"></i>
+                <i class="fa-brands fa-google-plus-g cs-socials"></i>
+                <i class="fa-brands fa-twitter cs-socials"></i>
+                <i class="fa-brands fa-linkedin-in cs-socials"></i><!-- /social -->
+              </div> <!-- /Around the web -->
+              <div class="col-sm-12 col-md-4 col-lg-4 gy-3">
+                  <h3 class="text-uppercase">AROUND FREELANCER</h3>
+                  <p>Freelancer is a free to use&comma; open source Bootstrap theme creater by <span class="my-link">Start Bootstrap</span>&#46;</h5>
+                </div> <!-- /About-->
+            </div> <!-- /row -->
+          </div> <!-- /container -->
+      </section> <!-- /Footer-Up ----------------->
       <div id="footer-down" class="cs-bg-blue">
-        <p>Copyright &copy; 2022 - INDRACOM di Davide Chon</p>
+        <p>Copyright &copy; Your Website 2019</p>
       </div> <!-- /Footer-Down ----------------->
     </footer> <!-- /Footer ---------------------------------->
-
 </body>
 </html>
